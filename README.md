@@ -127,3 +127,7 @@ Run the docker image
 ```sh
 docker run --env-file .env --name paul paul
 ```
+Or even better, if the docker host is on linux, sync the time!
+```sh
+docker run --env-file .env -v /etc/localtime:/etc/localtime:ro --name paul paul
+```
