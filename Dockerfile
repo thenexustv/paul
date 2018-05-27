@@ -16,4 +16,4 @@ WORKDIR /opt/paul
 
 RUN npm install
 
-ENTRYPOINT ls -l && ./bin/hubot
+ENTRYPOINT ./bin/hubot
