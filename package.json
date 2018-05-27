@@ -5,6 +5,7 @@
   "author": "Brian Mitchell <bman4789@gmail.com>",
   "description": "The Nexus TV's hubot, Paul.",
   "dependencies": {
+    "githubot": "^1.0.1",
     "hubot": "^3.0.1",
     "hubot-diagnostics": "0.0.2",
     "hubot-help": "^0.2.2",
